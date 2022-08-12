@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: 'Inter', sans-serif;
+  background-color: #282D35;
+}
+.header-nav {
+  height: 9.1rem;
+  display: flex;
+  padding: 0 2rem;
+  justify-content: space-between;
+  align-items: center;
+  background: #21222A;
+}
+.header-nav__logo {
+  display: flex;
+  align-items: center;
+}
+.header-nav__logo img {
+  height: 2.893rem;
+  width: 2.893rem;
+  margin-right: .5rem;
+}
+.header-nav__logo figcaption {
+  font-weight: 700;
+  font-size: 2.225rem;
+  line-height: 2.693rem;
+  letter-spacing: -0.05em;
+  color: #61DAFB;
+}
+.header-nav__extra-title {
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 1.936rem;
+  color: #DEEBF8;
+}
+/*MAIN CONTENT*/
+.main-content {
+  padding-left: 2rem;
+  background: url("../public/react-icon-half.png") no-repeat right center;
+}
+.main-content__title {
+  padding-top: 4rem;
+  font-weight: 700;
+  font-size: 3.906rem;
+  line-height: 4.7rem;
+  letter-spacing: -0.05em;
+  color: #FFFFFF;
+}
+.main-content__list {
+  padding-left: 5rem;
+  padding-top: 2rem;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.main-content__item::marker {
+  font-size: 2.4rem;
+  color: #61DAFB;
+}
+.main-content__item {
+  padding-bottom: 1rem;
+  font-size: 1.6rem;
+}
